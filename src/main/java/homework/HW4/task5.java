@@ -26,7 +26,7 @@ public class task5 {
         for(int z = 0; z<array.length; z++){
             if(array[z]%2==0){
             list2.add(array[z]);}
-            else continue;
+//            else continue;// O
             }
         System.out.println(list2.toString());
         }

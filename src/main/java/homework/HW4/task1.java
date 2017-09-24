@@ -1,16 +1,18 @@
 package homework.HW4;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 
 
 //Создайте массив из всех чётных чисел от 2 до 30 и выведите элементы массива на экран.
 public class task1 {
     public static void main(String[] args) {
-       ArrayList list=new ArrayList();
-       int i=2;
-       while(i<=30) {
-           list.add(i);
-           i+=2;
+       int array[] =new int[(30)/2];
+       int num =2;
+       int index=0;
+       while(num <=30) {
+           array[index]=num;
+           num +=2;
+           index++;
        }
-        System.out.println(list.toString());
+        System.out.println(Arrays.toString(array));
 }}

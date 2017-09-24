@@ -44,8 +44,8 @@ public class task4 {
             if (array[i] <= min) {
                 min = array[i];
                 index = i;
-            } else {
-                continue;
+//            } else {
+//                continue;
             }}
             return index;
         }
@@ -57,8 +57,8 @@ public class task4 {
             if (array[i] >= max) {
                 max = array[i];
                 index = i;
-            } else {
-                continue;
+//            } else {
+//                continue;
             }}
             return index;
         }
